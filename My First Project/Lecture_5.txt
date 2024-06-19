@@ -7,7 +7,7 @@ public class variable : MonoBehaviour
 {
     int integer = 2;
     float dec = 3.4f;
-    string str = "Aman";
+    string str = "Sahil";
     public string LastName;
 
     // Start is called before the first frame update
