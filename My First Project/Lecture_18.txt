@@ -1,0 +1,17 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class LevelManager : MonoBehaviour
+{
+    public GameObject ballPrefab;
+    public Transform instatiatePos
+
+    public CamerFollow cameraFollow;
+    void Start()
+    {
+        GameObject go = Instantiate(ballPrefab, instattiatePos.positon,  Quanternion.identity);
+        cameraFollow.target = go.transform;
+    }
+
+}
